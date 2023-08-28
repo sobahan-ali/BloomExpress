@@ -215,6 +215,28 @@ ul li:hover {
 }
 
 /* -- end latest deal section -- */
+/* --------- start Why Choose BloomExpress?-------- -- */
+.reasons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.reason {
+    text-align: center;
+    width: 30%;
+    box-shadow: 5px 5px 20px gray;
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+.reason_title {
+    margin-bottom: 20px;
+}
+
+/* --------- end Why Choose BloomExpress?-------- -- */
 
 /* start extra section style */
 .shop {
