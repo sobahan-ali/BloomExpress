@@ -52,12 +52,6 @@ ul li:hover {
     margin: auto;
 }
 
-.banner_text {
-    width: 50%;
-    padding-right: 70px;
-}
-
-
 .banner_title {
     font-size: 80px;
     font-style: normal;
@@ -77,16 +71,47 @@ ul li:hover {
 }
 
 .banner_img {
-    width: 50%;
     padding-left: 80px;
 }
 
 .banner_img img {
     width: 500px;
-    height: 700px;
+    height: 650px;
 }
 
 /* ---end 1st banner section------- */
+
+/* -- start hot deal sign up  -- */
+.hot_deal_container {
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    padding: 90px;
+}
+
+.hot_deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.deal_text {
+    text-align: center;
+}
+
+.hot_title {
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.orange_color {
+    color: #E55473;
+}
+
+/* -- end  hot deal sign up  -- */
 
 /* start extra section style */
 .shop {
