@@ -203,9 +203,10 @@ ul li:hover {
     padding: 150px;
     background-image: url("/images/bg.png");
     margin: auto;
-    margin-top: 100px 0;
     background-position: -80px 0;
     background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
