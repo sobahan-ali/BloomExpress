@@ -111,7 +111,43 @@ ul li:hover {
     color: #E55473;
 }
 
-/* -- end  hot deal sign up  -- */
+/* ------- end  hot deal sign up--------- */
+
+/*  -- ----start instagram section ----- --*/
+
+.instagram_container {
+    margin-top: 100px;
+}
+
+.common_title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.common_text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.img {
+    width: 280px;
+}
+
+/* --------end instagram section ----------*/
 
 /* start extra section style */
 .shop {
