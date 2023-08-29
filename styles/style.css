@@ -1,9 +1,61 @@
 * {
-    /* padding: 0; */
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+/* start utilities */
+
+.common_title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.common_text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn_reguler {
+    padding: 15px 20px;
+    background: #ff828c;
+    font-size: 11px;
+    border-radius: 5px;
+    letter-spacing: 1.3px;
+    color: whitesmoke;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn_reguler:hover {
+    background: #4a0dcc;
+    cursor: pointer;
+}
+
+.orange_color {
+    color: #E55473;
+}
+
+.text_center {
+    text-align: center;
+}
+
+input {
+    width: 40%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+/* end utilities */
 
 /* start navbar */
 .navbar {
@@ -51,15 +103,6 @@ ul li:hover {
     justify-content: space-between;
     width: 80%;
     margin: auto;
-}
-
-.banner_title {
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    width: 708px;
-    font-family: Lato;
 }
 
 .text {
@@ -145,21 +188,6 @@ ul li:hover {
     margin: auto;
 }
 
-.deal_text {
-    text-align: center;
-}
-
-.hot_title {
-    font-style: normal;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.orange_color {
-    color: #E55473;
-}
-
 /* ------- end  hot deal sign up--------- */
 
 /*  -- ----start instagram section ----- --*/
@@ -168,21 +196,6 @@ ul li:hover {
     margin-top: 100px;
 }
 
-.common_title {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-}
-
-.common_text {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
 
 .img_container {
     width: 80%;
@@ -211,9 +224,6 @@ ul li:hover {
 
 }
 
-.text_center {
-    text-align: center;
-}
 
 /* -- end latest deal section -- */
 /* --------- start Why Choose BloomExpress?-------- -- */
@@ -230,7 +240,8 @@ ul li:hover {
     width: 30%;
     box-shadow: 5px 5px 20px gray;
     padding: 30px;
-    margin: 30px 0px;
+    margin: 30px 0px 100px 0;
+
 }
 
 .reason_title {
@@ -250,44 +261,12 @@ ul li:hover {
     border-radius: 80px 10px 80px 0px;
 }
 
-.shop_title {
-    font-style: italic;
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: 400;
-}
-
 .shop_text {
     font-size: 40px;
     line-height: 1.3;
     font-weight: 400;
     color: #202e3e;
     margin: 20px 0px 20px 0px;
-}
-
-.btn_reguler {
-    padding: 15px 20px;
-    background: #ff828c;
-    font-size: 11px;
-    border-radius: 5px;
-    letter-spacing: 1.3px;
-    color: whitesmoke;
-    border: none;
-    font-weight: 700;
-    margin-top: 20px;
-}
-
-.btn_reguler:hover {
-    background: #4a0dcc;
-    cursor: pointer;
-}
-
-input {
-    width: 40%;
-    padding: 10px 0px;
-    border-radius: 10px;
-    text-align: center;
-    border: none;
 }
 
 /* end extra section style */
