@@ -69,7 +69,6 @@ input {
 .navbar ul {
     list-style: none;
     font-size: large;
-
 }
 
 .items {
@@ -215,7 +214,7 @@ ul li:hover {
 .latest_container {
     width: 80%;
     padding: 150px;
-    background: url("/images/bg.png");
+    background: url("//images/bg.png");
     margin: auto;
     background-position: -80px 0;
     background-repeat: no-repeat;
